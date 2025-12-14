@@ -7,6 +7,6 @@ class Tester:
         print(f"{self.name} {test_vibe}")
 
 tester_1 = Tester(name='tester_1')
-tester_1.work_hard(deadline=False)  # 'tester_1 Можно отдыхать'
+tester_1.work_hard(deadline=False)  
 tester_2 = Tester(name='tester_2')
-tester_2.work_hard(deadline=True)   # 'tester_2 Что ж, ещё часок поработаю!' 
+tester_2.work_hard(deadline=True)   

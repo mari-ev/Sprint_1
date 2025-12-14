@@ -6,9 +6,7 @@ world_champions = {
     2018: 'Франция',
     2022: 'Аргентина',
 }
-
 country = 'Италия'
-
 if country in world_champions.values():
     print(f'{country} cтановилась чемпионом мира по футболу в 21 веке!')
 else:
